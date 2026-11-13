@@ -1,0 +1,83 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Birthday Surprise 💌</title>
+
+    <!-- Link CSS -->
+    <link rel="stylesheet" href="tem.css">
+</head>
+
+<body>
+
+    <!-- Floating Decorations -->
+    <span class="sparkle">✨</span>
+    <span class="sparkle">💖</span>
+    <span class="sparkle">🌸</span>
+    <span class="sparkle">🎀</span>
+
+    <main class="scene">
+
+        <h1>Someone Special Has a Birthday! 🎂</h1>
+
+        <p class="subtitle">
+            A little envelope filled with a lot of love…
+        </p>
+
+        <!-- Envelope -->
+        <div class="envelope-wrap">
+
+            <div class="envelope" id="envelope">
+
+                <!-- Birthday Letter -->
+                <article class="letter">
+
+                    <h2>Happy Birthday, Temitope Dorcas Fakayode 💗</h2>
+
+                    <div id="message"></div>
+
+                </article>
+
+                <!-- Envelope Flap -->
+                <div class="flap"></div>
+
+                <!-- Envelope Front -->
+                <div class="front-pocket"></div>
+
+                <!-- Heart Seal -->
+                <button
+                    class="seal"
+                    id="seal"
+                    aria-label="Open birthday envelope">
+
+                    ♥
+                </button>
+
+            </div>
+
+        </div>
+
+        <!-- Instruction -->
+        <p class="hint" id="hint">
+            💌 Tap the heart seal to open your surprise 💌
+        </p>
+
+        <!-- Close Button -->
+        <div class="controls">
+
+            <button class="reset" id="reset" hidden>
+                Close the envelope ↩
+            </button>
+
+        </div>
+
+    </main>
+
+    <!-- Link JavaScript -->
+    <script src="tem.js"></script>
+
+</body>
+</html>
